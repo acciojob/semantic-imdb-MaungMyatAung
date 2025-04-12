@@ -1,67 +1,64 @@
-
-/* Your CSS Code here. */
 body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-    header {
-      background-color: #222;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-      font-size: 2em;
-    }
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
 
-    nav {
-      background-color: #444;
-      padding: 10px 20px;
-    }
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+}
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin-right: 20px;
-      font-weight: bold;
-    }
+nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-    nav a:hover {
-      text-decoration: underline;
-    }
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
 
-    main {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 20px;
-    }
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
 
-    article {
-      flex: 2;
-      margin-right: 20px;
-    }
+nav a:hover {
+    text-decoration: underline;
+}
 
-    section {
-      margin-bottom: 30px;
-    }
+section {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-    aside {
-      flex: 1;
-      background-color: #eee;
-      padding: 20px;
-      border-left: 4px solid #ccc;
-    }
+aside {
+    background: #e2e2e2;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
 
-    footer {
-      background-color: #222;
-      color: #fff;
-      text-align: center;
-      padding: 15px;
-      margin-top: 30px;
-    }
-
-    h2 {
-      color: #444;
-    }
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
